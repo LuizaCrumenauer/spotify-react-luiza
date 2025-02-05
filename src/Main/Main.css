@@ -74,6 +74,7 @@
     height: 200px;
     overflow: hidden;
     border-radius: 8px;
+    
   }
   
   .cards span {
@@ -149,15 +150,16 @@
     /* min-container-width: 372px; 
   }*/
   
-  /* .hidden {
+  .hidden {
     display: none;
-  } */
+  }
   
   .grid-container {
     grid-gap:24px;
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     min-width: 767px;
+    margin-left: 280px;
   }
   
   .artist-card {
@@ -170,6 +172,7 @@
     position: relative;
     transition: background-color 0.3s ease;
     width: 100%;
+    
   }
   
   .artist-card:hover {
@@ -232,6 +235,7 @@
     right: 10px;
     top: 120px;
     padding: 18px;
+    color: #121212;
     background-color: #1db954;
     border-radius: 100%;
     font-size: 14px;
@@ -247,7 +251,6 @@
   }
   
   .play .fa-play:hover {
-    padding: 20px;
     cursor: pointer;
   }
   

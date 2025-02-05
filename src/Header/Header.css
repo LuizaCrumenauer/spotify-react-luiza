@@ -65,8 +65,25 @@
     overflow: hidden;
     white-space: nowrap; /*deixa o texto em uma linha so*/
     outline: none; /*sem marcação*/
+    caret-color: #fff; /* Mantém o cursor visível */
     margin-left: 5px;
+
+     /* remover estilo do navegador */
+     &:-webkit-autofill,
+     &:-webkit-autofill:hover, 
+     &:-webkit-autofill:focus {
+         -webkit-text-fill-color: #fff;
+         -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+         transition: background-color 5000s ease-in-out 0s;
+     }
+ 
+     &::selection {
+         background: rgba(255, 255, 255, 0.2); /* Cor de seleção sutil */
+         color: #fff;
+    }
+
 }
+
 
 .header-login .subscribe{
     color: #a7a7a7;
