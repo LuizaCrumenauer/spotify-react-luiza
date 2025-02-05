@@ -24,7 +24,7 @@ h1{
 }
 
 .sidebar_navigation .logo img {
-    width: 80px;
+    width: 100px;
 }
 
 .sidebar nav ul{
@@ -43,6 +43,18 @@ h1{
     font-size: 14px;
 }
 
+.sidebar .icons{
+    
+    font-size: 20px;
+    font-weight: 300;
+    color: #b3b3b3;
+    margin-right: 10px;
+    
+}
+.sidebar_text_icons{
+    display: flex;
+    align-items:center;
+}
 .library{
     background-color: #121212;
     color: #b3b3b3;
@@ -151,14 +163,13 @@ h1{
     text-decoration: underline;
 }
 
-.languages .languages_button{
+.languages_button{
     background-color: transparent;
     border: 1px solid #878787;
     color: #fff;
     font-weight: bold;  /*700*/
     cursor: pointer;
-    align-items: center;
-    width: 170px;
+    width: 180px;
     margin: 8px;
     padding: 8px;
     border-radius: 20px;

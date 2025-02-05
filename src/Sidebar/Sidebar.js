@@ -1,6 +1,10 @@
 import React from 'react';
 import './Sidebar.css';
 import logoSpotify from '../assets/icons/logo-spotify.png';
+import { MdLibraryBooks } from "react-icons/md";
+import { FaHome } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
+import { FaGlobe } from "react-icons/fa";
 
 const Sidebar = () => {
   return (
@@ -13,14 +17,14 @@ const Sidebar = () => {
         </div>
         <ul>
           <li key="home">
-            <a href="">
-              <span className="fa fa-home"></span>
+            <a className='sidebar_text_icons' href="">
+              <span className='icons'><FaHome /></span>
               <span>Início</span>
             </a>
           </li>
           <li key="search">
-            <a href="">
-              <span className="fa fa-search"></span>
+            <a className='sidebar_text_icons' href="">
+              <span className='icons'><FaSearch /></span>
               <span>Buscar</span>
             </a>
           </li>
@@ -28,8 +32,8 @@ const Sidebar = () => {
       </nav>
       <div className="library">
         <div className="library_content">
-          <button className="library_button">
-            <span className="fa fas fa-book"></span>
+          <button className="library_button sidebar_text_icons">
+            <span className='icons'><MdLibraryBooks /></span>
             <span>Sua Biblioteca</span>
           </button>
           <span className="fa fa-plus"></span>
@@ -46,9 +50,9 @@ const Sidebar = () => {
         <div className="cookies">
           <a href="">Cookies</a>
         </div>
-        <div className="languages">
-          <button className="languages_button">
-            <span className="fa fa-globe"></span>
+        <div>
+          <button className="languages_button sidebar_text_icons">
+            <span className='icons'><FaGlobe /></span>
             <span>Português do Brasil</span>
           </button>
         </div>

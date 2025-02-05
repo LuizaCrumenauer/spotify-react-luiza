@@ -19,6 +19,9 @@ import playlist14 from "../assets/playlist/14.jpeg";
 import playlist15 from "../assets/playlist/15.jpeg";
 
 const Main = () => {
+
+
+
   return (
     <main>
       <div id="playlist-container" className="hidden">
@@ -149,11 +152,11 @@ const Main = () => {
             <div className="card-img">
               <img id="artist-img" className="artist-img" alt="Artista" />
               <div className="play">
-                <a href="#" className="fa fa-solid fa-play"></a>
+                <a href="" className="fa fa-solid fa-play"></a>
               </div>
             </div>
             <div className="card-text">
-              <a title="Artista" href=""></a>
+              <a title="Artista" href="#"></a>
               <span className="artist-name" id="artist-name"></span>
               <span className="artist-categorie">Artista</span>
             </div>
