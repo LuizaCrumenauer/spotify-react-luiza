@@ -38,3 +38,13 @@
     cursor: pointer;
     flex-shrink: 0;  /*nao deixa o elemento encolher quando o espaço disponível no contêiner flexível for reduzido.*/
 }
+
+@media screen and (max-width: 660px){
+
+    .disclaimer-premium button {
+        height: 50px;
+        width: 100px;
+        font-size: 10px;
+    }
+
+  }

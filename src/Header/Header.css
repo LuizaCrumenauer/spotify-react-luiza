@@ -68,7 +68,7 @@
     caret-color: #fff; /* Mantém o cursor visível */
     margin-left: 5px;
 
-     /* remover estilo do navegador */
+     /* remover estilo do navegador*/
      &:-webkit-autofill,
      &:-webkit-autofill:hover, 
      &:-webkit-autofill:focus {
@@ -103,3 +103,24 @@
     border-radius: 40px;
 }
 
+@media screen and (max-width: 840px){
+
+    .header-login .subscribe{
+        margin-right: 10px;
+    }
+    .header-login .login{
+        width: 70px;
+    }
+
+  }
+
+  @media screen and (max-width: 800px){
+
+    .header-login .subscribe{
+       display: none;
+    }
+    .header-login .login{
+        display: none;
+    }
+
+  }

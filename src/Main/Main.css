@@ -258,3 +258,40 @@
     padding: 20px 40px;
   }
   /* FIM CARD ARTISTA */
+
+
+
+  @media screen and (max-width: 1620px){
+
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+        gap: 10px;
+        grid-gap: 12px;
+    }
+
+  }
+
+  
+  @media screen and (max-width: 1320px){
+
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr 1fr !important;
+    }
+
+  }
+
+  @media screen and (max-width: 1060px){
+
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+  }
+
+  @media screen and (max-width: 800px){
+
+    .offer__list-item {
+        grid-template-columns: 1fr !important;
+    }
+
+  }
