@@ -6,6 +6,7 @@ import search from '../assets/icons/search.png';
 
 const Header = () => {
     return (
+
         <nav className="header-navigation">
             <div className="navigation">
                 <button className="arrow-left">

@@ -1,10 +1,16 @@
-import './App.css';
-import Header from './Header/Header';
+import React from 'react';
+import Sidebar from '../src/Sidebar/Sidebar';
+import HeaderNavigation from '../src/Header/Header';
+import Footer from '../src/Footer/Footer';
 
-function App() {
+const App = () => {
   return (
-    <Header></Header>
+    <>
+      <Sidebar />
+      <HeaderNavigation />
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
